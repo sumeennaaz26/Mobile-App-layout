@@ -1,0 +1,305 @@
+*{
+	padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    padding: 45px 65px;
+    background-image:linear-gradient(rgb(217, 51, 45,0.5), rgb(217, 51, 45,0.5)), url('../images/heroBg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.navbar ul{
+    padding-top: 15px;
+}
+.navbar ul li a{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar ul li a::after{
+    content: '';
+    height: 3px;
+    background-color: #fff;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s linear;
+}
+.navbar ul li a:hover:after{
+    width: 100%;
+}
+.chocolate-Info h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #ffff;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.chocolate-Info p{
+    font-size: 36px;
+    font-weight:lighter;
+    color: #ffff;
+    margin-bottom: 50px;
+}
+
+.chocolate-Info a{
+    background-color: #282828;
+    color:#ffff;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 35px;
+    border-radius: 45px ;
+    border: 2px solid #282828;
+    transition: all 0.2s linear;
+}
+.chocolate-Info a:hover{
+    background-color: #fff;
+    color: #282828;
+    font-weight: 700;
+    border: 2px solid #282828;
+}
+
+.chocolate-Info a i{
+    margin-right: 25px;
+    font-size: 45px;
+    vertical-align: middle;
+}
+
+.hero-section .mobileImg{
+    position: relative;
+}
+.hero-section .mobileImg img{
+    position: absolute;
+    top: -40px;
+    right: 20px;
+}
+
+/****** hero section ends ***********/
+
+
+.appFeature-sec{
+    padding: 90px 0 105px;
+}
+
+.appFeature-sec .features-heading h1{
+    font-size: 52px;
+    color: #8a8a8a;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.appFeature-sec .features-heading p{
+    font-size: 22px;
+    color: #3a3a3a;
+    margin-bottom: 65px;
+    font-weight: 300;
+}
+
+.feature-card .card-img{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.feature-card .card-img img{
+    background-size: cover;
+    width: 100%;
+}
+
+.feature-card .card-info h4{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    columns: #1a1a1a;
+    margin: 35px 0 40px 0;
+}
+
+.feature-card .card-info p{
+    color:#646464;
+    font-size: 18px;
+    font-weight: 100;
+}
+.feature-card{
+    transition: all 0.3s;
+}
+
+.feature-card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 3px #3a3a3a;
+}
+
+/*********app feature section end ********/
+
+.middle-sec{
+    padding: 200px 0 170px;
+    background-color: #d7dddb;
+    background-image: url('../images/middle-secbg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+
+}
+.reddish-text{
+    color: #f55150;
+}
+
+.middle-info h1{
+    color: #ffff;
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+.middle-info p{
+    font-size: 24px;
+    color: #585858;
+    font-weight: lighter;
+    margin-bottom: 70px;
+}
+.middle-info a{
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #d9332d;
+    border-radius: 40px;
+    padding: 20px;
+    border: solid 2px #d9332d;
+    transition: all 0.3s linear;
+}
+.middle-info a:hover{
+    color: #d9332d;
+    background-color: white;
+}
+
+/***********middle sec end*******************/
+
+.links-sec{
+    padding: 120px 150px;
+    background-color: #2e2e38;
+}
+.links-sec .links-logo{
+    margin-bottom: 60px;
+}
+
+.links-blog ul li{
+    display: table;
+    width: 100%;
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.links-blog ul li div{
+    float: left;
+}
+
+.links-blog h4, .links-blog2 h4, .links-blog3 h4{
+    font-size: 20px;
+    color: #ffff;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}
+.blog-info{
+    margin-left: 15px;
+}
+.blog-info p{
+    font-size: 15px;
+    color: #ffff;
+    font-weight: 400;
+}
+.links-blog .box{
+    width: 55px;
+    height: 40px;
+    background-color:#e74b3b ;
+}
+
+.links-blog2 h4{
+    margin-bottom: 45px;
+}
+
+.links-blog2 h6,  .links-blog2 a{
+    font-size: 14px;
+    color: #ffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.links-blog2 .small-text{
+    font-size: 11px;
+    color: #ffff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.links-blog2 .big-text, .links-blog3 .big-text{
+    font-size: 15px;
+    color: #ffff;
+    font-weight:400;
+    margin-bottom: 25px;
+}
+.links-blog2 a{
+    margin-bottom: 0;
+}
+.links-blog3 h4{
+    margin-bottom: 35px;
+}
+.links-blog3 .big-text{
+    font-style: italic;
+    margin: 0;
+}
+
+/*********** links blog section ends **************/
+
+.footer-sec{
+    background-color: #d7dedc;
+    padding: 45px 0 35px;
+}
+.footer-sec .social-links p, .social-icons{
+    display: inline-block;
+}
+.footer-sec .social-links p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #000;
+}
+
+.social-links p:nth-child(2),.social-links p:nth-child(4){
+    padding: 0 20px;
+    position: relative;
+}
+.social-icons a{
+   font-size: 26px;
+   padding: 0 20px;
+   color: #000;
+}
+.social-icons a:first-child, .social-icons a:nth-child(3){
+    color:#4762a1 ;
+}
+.social-icons a:nth-child(2){
+    color: #dd3b7b;
+}
+
+.social-links a p:hover{
+    transform: scale(1.08);
+    text-decoration: underline;
+    
+}
+.social-icons a:hover{
+    transform: scale(1.4);
+}
+
+
